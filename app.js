@@ -22,4 +22,4 @@ app.get('/tu-van-chuong-trinh-cntt', cnts.tvctcntt);
 app.get('/thong-tin-tuyen-sinh', cnts.ttts);
 
 
-app.listen(port, ()=>console.log("Server is listening on port: " + port));
+app.listen(process.env.PORT || port, ()=>console.log("Server is listening on port: " + port));
