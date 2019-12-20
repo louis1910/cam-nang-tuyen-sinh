@@ -1,0 +1,135 @@
+/* Chỉ sử dụng đơn vị kích thước tương đối*/
+
+div.wrapper {
+	display: block;
+    width: 100%;
+    margin: 0;
+    height: 80px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #3B5998;
+	
+}
+
+
+.img-download{
+	width: 30px;
+	height: 30px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+div.wrapper p{
+	padding: 20px 0 10px 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.row{
+	box-sizing: border-box;
+	width: calc(100%);
+	margin: 0!important;
+}
+
+.col-lg-12{
+	padding: 0!important;
+}
+
+/*@media screen and (max-width: 400px){
+	.table{
+		font-size: 8px;
+
+	}
+	#search{
+		width: 82%;
+
+	}
+	#btn{
+		width: 17%;
+	}
+
+	div.wrapper {
+	display: block;
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #3B5998;
+	
+	}
+
+
+
+	div.wrapper p{
+	padding: 10px 0 5px 15px;
+    font-size: 15px;
+    font-weight: bold;
+	}
+
+	tbody td.VB_NGUOIKY{
+		display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;   
+	}
+	thead th.VB_NGUOIKY{
+		display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;   
+	}
+}
+
+.tit{
+	color: black;
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 530px){
+	#search{
+		width: 82%;
+
+	}
+	#btn{
+		width: 17%;
+	}
+	.table{
+		font-size: 10px;
+
+	}
+	tbody td.VB_NGUOIKY{
+		display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;   
+	}
+	thead th.VB_NGUOIKY{
+		display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;   
+	}
+
+
+
+}
+
+@media screen and (min-width: 400px){
+	#search{
+		width: 88%;
+
+	}
+	#btn{
+		width: 11%;
+	}
+}*/

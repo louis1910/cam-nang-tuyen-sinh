@@ -1,0 +1,71 @@
+/* Chỉ sử dụng đơn vị kích thước tương đối*/
+
+
+@media screen and (max-width: 400px){
+	.table{
+		font-size: 8px;
+
+	}
+	#search{
+		width: 82%;
+
+	}
+	#btn{
+		width: 17%;
+	}
+	tbody td.VB_NGUOIKY{
+		display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;   
+	}
+	thead th.VB_NGUOIKY{
+		display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;   
+	}
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 530px){
+	#search{
+		width: 82%;
+
+	}
+	#btn{
+		width: 17%;
+	}
+	.table{
+		font-size: 100%;
+	}
+	tbody td.VB_NGUOIKY{
+		display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;   
+	}
+	thead th.VB_NGUOIKY{
+		display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;   
+	}
+
+
+
+}
+
+@media screen and (min-width: 400px){
+	#search{
+		width: 88%;
+
+	}
+	#btn{
+		width: 11%;
+	}
