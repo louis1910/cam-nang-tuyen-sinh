@@ -11,9 +11,7 @@ app.set('views', './views');
 
 app.use(express.static('public'));
 
-app.get('/', (req, res)=>{
-  res.send("hello world");
-});
+app.get('/', cnts.cnts);
 
 app.get('/cam-nang-tuyen-sinh', cnts.cnts);
 
